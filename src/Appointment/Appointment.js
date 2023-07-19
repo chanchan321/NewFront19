@@ -59,7 +59,7 @@ export default function Appointment() {
             try{
                 const response= await Axios.get(`https://newback19.onrender.com/appointment/${cUser.LRN}`,
                                                {
-                                                    withCredentials: true,
+                                                    credentials: 'include,
                                                   },)
 
                   if(!response)
