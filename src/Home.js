@@ -82,8 +82,7 @@ export default function Home() {
     <div className=' bg-gradient-to-b from-blue-500 via-white to-blue-500 min-h-[100vh] h-[100vh] w-full flex flex-col justify-center relative items-center overflow-hidden' > 
         <div className=' w-full z-10 text-black px-8 py-2 fixed top-1 bg-opacity-0 flex flex-row justify-between bg-black shadow-md'>
                 <img src={logo} alt='logo' className='w-[60px] z-50  block sm:hidden'/>
-                <div className='
-                <input type="number" min="1900" max="2099" step="1" value="2016" />hidden sm:flex flex-row items-center w-[350px] justify-around'><span><img src={logo} alt='logo' className='w-[50px] z-50'/></span>
+                <div className='hidden sm:flex flex-row items-center w-[350px] justify-around'><span><img src={logo} alt='logo' className='w-[50px] z-50'/></span>
                   <div className='font-[poppins] font-bold text-[20px] text-white textS '>Cabangan High School </div>
                 </div>        
               <div className='flex flex-row items-center justify-around'>
