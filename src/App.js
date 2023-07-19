@@ -18,8 +18,8 @@ function App() {
       <Routes>
 
         <Route path="/" element={<LandingPage />}/>
-        <Route path="/referral" element={<LandingPage2 />}/>
-        <Route path="/register" element={<Register />}/>
+        // <Route path="/referral" element={<LandingPage2 />}/>
+        // <Route path="/register" element={<Register />}/>
         <Route path="/login" element={<Login />}/>
         
         <Route element={<RequireAuthOnline allowed={["loggedIN"]}/>}>
