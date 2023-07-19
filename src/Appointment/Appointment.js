@@ -60,7 +60,7 @@ export default function Appointment() {
                 const response= await Axios.get(`https://newback19.onrender.com/appointment/${cUser.LRN}`,
                                                {
                                                     credentials: 'include',
-                                                  },)
+                                                  })
 
                   if(!response)
                   return Swal.fire({
