@@ -169,10 +169,7 @@ export default function StudeAddAppointment({haverequest,refresh,appointmentD,lo
 
         const getLongEventss = async () =>{
           try{
-            const response= await Axios.get(`https://newback19.onrender.com/longEvents`,
-                                            {
-        credentials: 'include',
-      })
+            const response= await Axios.get(`https://newback19.onrender.com/longEvents`,{credentials: 'include'})
             
              setselected((response.data).map((item)=> {
               return {
