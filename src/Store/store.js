@@ -10,7 +10,7 @@ let store = (set) =>({
 })
 
 store = devtools(store)
-store = persist(store, {name: 'user', storage: createJSONStorage(() => sessionStorage)})
+store = persist(store, {name: 'user', storage: createJSONStorage(() => localStorage)})
 
 const useStore = create(store)
 
